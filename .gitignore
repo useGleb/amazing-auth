@@ -3,8 +3,9 @@ amazing-auth-web/.next
 amazing-auth-server/node_modules
 amazing-auth-server/dist
 amazing-auth-server/.dist
+amazing-auth-server/.env*
 node_modules
-
+.env*
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
