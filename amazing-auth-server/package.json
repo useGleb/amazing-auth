@@ -1,0 +1,33 @@
+{
+  "name": "amazing-auth-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.ts",
+  "description": "Minimalistic self-hosted solution for auth.",
+  "scripts": {
+    "build": "yarn webpack",
+    "dev": "yarn nodemon `./index.ts localhost 8081`"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20",
+    "webpack": "^5.95.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.9",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
