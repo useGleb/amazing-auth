@@ -3,6 +3,7 @@ amazing-auth-web/.next
 amazing-auth-server/node_modules
 amazing-auth-server/dist
 amazing-auth-server/.dist
+node_modules
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
