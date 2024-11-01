@@ -40,7 +40,9 @@ node_modules
 
 # env files (can opt-in for commiting if needed)
 /amazing-auth-web/.env*
-/amazing-auth-server/.end*
+/amazing-auth-web/.env
+/amazing-auth-server/.env*
+/amazing-auth-server/.env
 # vercel
 /amazing-auth-web/.vercel
 
