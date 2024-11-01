@@ -6,8 +6,6 @@
   "scripts": {
     "run:server": "cd amazing-auth-server && yarn dev",
     "run:web": "cd amazing-auth-web && yarn dev",
-    "echo1": "echo 1",
-    "echo2": "echo 2",
     "run:all": "npm-run-all --parallel run:server run:web"
   },
   "dependencies": {},
